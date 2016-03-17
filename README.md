@@ -21,4 +21,4 @@ The Ffmpeg afade filter is great but its documentation can be a little opaque if
 | dese|double-exponential seat|![curve](https://raw.githubusercontent.com/guillaumekh/ffmpeg-afade-cheatsheet/master/images/dese.gif)
 | desi|double-exponential sigmoid|![curve](https://raw.githubusercontent.com/guillaumekh/ffmpeg-afade-cheatsheet/master/images/desi.gif)
 
-Source: https://github.com/FFmpeg/FFmpeg/blob/master/images/libavfilter/af_afade.c
+Source: https://github.com/FFmpeg/FFmpeg/blob/master/libavfilter/af_afade.c
