@@ -2,6 +2,8 @@
 
 The Ffmpeg afade filter is great but its documentation can be a little opaque if you have trouble figuring what a 'double-exponential sigmoid' curve is. This cheat sheet is here to help.
 
+All curves were drawn in OS X's Grapher.app, with equations ported straight from [afade's code](https://github.com/FFmpeg/FFmpeg/blob/master/libavfilter/af_afade.c). The Grapher file is included in repo for reference.
+
 | afade argument  | Meaning       | Curve         |
 | --------------- |:-------------:|:-------------:|
 | tri|triangular, linear slope (default)|![curve](https://raw.githubusercontent.com/guillaumekh/ffmpeg-afade-cheatsheet/master/images/tri.gif)
@@ -20,5 +22,3 @@ The Ffmpeg afade filter is great but its documentation can be a little opaque if
 | ihsin|inverted half of sine wave|![curve](https://raw.githubusercontent.com/guillaumekh/ffmpeg-afade-cheatsheet/master/images/ihsin.gif)
 | dese|double-exponential seat|![curve](https://raw.githubusercontent.com/guillaumekh/ffmpeg-afade-cheatsheet/master/images/dese.gif)
 | desi|double-exponential sigmoid|![curve](https://raw.githubusercontent.com/guillaumekh/ffmpeg-afade-cheatsheet/master/images/desi.gif)
-
-Source: https://github.com/FFmpeg/FFmpeg/blob/master/libavfilter/af_afade.c
