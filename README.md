@@ -22,3 +22,4 @@ All curves were drawn in OS X's Grapher.app, with equations ported straight from
 | ihsin|inverted half of sine wave|![curve](https://raw.githubusercontent.com/guillaumekh/ffmpeg-afade-cheatsheet/master/images/ihsin.gif)
 | dese|double-exponential seat|![curve](https://raw.githubusercontent.com/guillaumekh/ffmpeg-afade-cheatsheet/master/images/dese.gif)
 | desi|double-exponential sigmoid|![curve](https://raw.githubusercontent.com/guillaumekh/ffmpeg-afade-cheatsheet/master/images/desi.gif)
+| losi|logistic sigmoid|![curve](https://raw.githubusercontent.com/guillaumekh/ffmpeg-afade-cheatsheet/master/images/losi.gif)
